@@ -1,5 +1,3 @@
-
-# Seed the RottenPotatoes DB with some movies.
 more_movies = [
   { title: 'Aladdin', rating: 'G',
     release_date: '25-Nov-1992' },
@@ -14,3 +12,4 @@ more_movies = [
 more_movies.each do |movie|
   Movie.create!(movie)
 end
+
